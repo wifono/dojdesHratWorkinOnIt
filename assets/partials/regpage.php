@@ -1,7 +1,6 @@
 <?php 
 
 
-
 if(isset($_POST["signin"])){
     CreateUser();
 };

@@ -19,8 +19,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bahianita&family=Roboto:wght@300&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="">
-        <link rel="stylesheet" href="../random1/css/normalize.css">
-        <link rel="stylesheet" href="../random1/css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     </head> 
