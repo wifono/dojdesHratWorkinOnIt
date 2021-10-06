@@ -1,0 +1,367 @@
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: center; }
+
+body {
+  max-width: 100%;
+  max-height: 100%;
+  color: whitesmoke;
+  text-align: center;
+  margin: 0;
+  background: #272727;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  background: linear-gradient(-45deg, #8d3661, #007676);
+  background-size: 400% 400%;
+  animation: gradient 30s ease-out infinite; }
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+a {
+  color: whitesmoke;
+  text-decoration: none; }
+
+.gallery img {
+  opacity: .5; }
+
+#overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  text-align: center; }
+
+#overlay img {
+  max-width: 50%;
+  margin-top: 5%;
+  border: white 1em solid; }
+
+header {
+  background: #d5d5d5;
+  box-shadow: 0.1em 0.1em 1em #1a1a1a; }
+
+.site-header {
+  overflow: hidden;
+  margin: 0;
+  list-style: none;
+  padding-left: 0%;
+  font-family: "Bahianita", sans-serif; }
+  .site-header ul {
+    margin: 0; }
+  .site-header li, .site-header a {
+    display: inline-block; }
+  .site-header a {
+    font-size: 2.3em;
+    padding: 1em;
+    padding-right: 1em;
+    font-weight: 800;
+    color: #555555;
+    text-transform: uppercase;
+    text-shadow: #131313, 10% 0px 1px 0.07em;
+    padding: 0.5em 1em; }
+    .site-header a:hover, .site-header a:focus {
+      color: #67124b;
+      transition: .3s all ease-in-out;
+      -webkit-transition: .3s all ease-in-out;
+      -moz-transition: .3s all ease-in-out;
+      -ms-transition: .3s all ease-in-out;
+      -o-transition: .3s all ease-in-out; }
+
+.active a {
+  border-radius: .1em;
+  background-color: #b6b6b6;
+  color: #2f2f2f;
+  padding: .1em .3em; }
+
+h1 {
+  text-transform: uppercase;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.5em 0;
+  margin: 0pt;
+  text-shadow: #676767 0px 1px 1em;
+  font-size: 10em;
+  font-family: "Bahianita", sans-serif; }
+
+.logo {
+  border-top: #888 0.3em solid; }
+
+h2 {
+  font-size: 3.5em;
+  font-family: "Bahianita", sans-serif; }
+
+section {
+  max-width: auto;
+  margin: 0;
+  display: flex;
+  display: flex;
+  align-items: center;
+  flex-flow: inherit;
+  margin-top: 1em; }
+
+main {
+  background: #1c1c1c93;
+  overflow: hidden; }
+  .aboutus main {
+    background: #525252; }
+  .team main {
+    background: #272727; }
+  .FAQ main {
+    background: #525252; }
+
+footer {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #d5d5d5;
+  box-shadow: 0.1em 0.1em 1em #1a1a1a;
+  font-family: "Bahianita", sans-serif;
+  font-size: 1.5em;
+  padding: 1px 0;
+  margin: 0;
+  border-top: 0.15em #222222 solid;
+  color: #222222; }
+  footer p {
+    padding: .2em 0;
+    margin: 0; }
+
+.gamenav {
+  background: #d5d5d5;
+  box-shadow: 0.1em 0.1em 1em #1a1a1a;
+  color: #555555;
+  border-top: #888 0.3111em solid; }
+  .gamenav a {
+    margin: 0; }
+
+footer {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #d5d5d5;
+  box-shadow: 0.1em 0.1em 1em #1a1a1a;
+  font-family: "Bahianita", sans-serif;
+  font-size: 1.5em;
+  padding: 1px 0;
+  margin: 0;
+  border-top: 0.15em #222222 solid;
+  color: #222222; }
+  footer p {
+    padding: .2em 0;
+    margin: 0; }
+
+.login {
+  position: fixed;
+  font-family: "Bahianita", sans-serif;
+  z-index: 20;
+  padding-left: 0em;
+  right: 0;
+  top: 0;
+  background-color: rgba(17, 17, 17, 0.705);
+  box-shadow: rgba(8, 8, 8, 0.966) 0 0 2em;
+  border: rgba(8, 8, 8, 0.966) 0 0 2em;
+  transition: 1s all;
+  opacity: 0; }
+  .login a {
+    font-size: 1.2em; }
+  .login a:hover {
+    color: #A81D7A;
+    transition: .5s all ease-in-out; }
+  .login li {
+    font-size: 1.2em;
+    list-style-type: none;
+    margin-right: 2em; }
+  .login li:first-child {
+    margin-top: -.2em;
+    margin-bottom: .1em; }
+
+.loginicon {
+  position: fixed;
+  font-family: "Bahianita", sans-serif;
+  z-index: 30;
+  right: 0;
+  top: 0; }
+  .loginicon a {
+    font-size: 3.5em;
+    color: #0CA3A8; }
+  .loginicon li {
+    font-size: 1.2em;
+    list-style-type: none;
+    margin-right: 3em;
+    margin-top: -.65em; }
+  .loginicon a:hover {
+    color: #510e3b;
+    transition: .5s all ease-in-out; }
+
+.logincont, .regcont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  position: fixed;
+  z-index: 25;
+  flex-direction: column;
+  display: none;
+  transition: .5s all; }
+
+.loginpage, .regpage {
+  display: flex;
+  max-width: 30rem;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(77, 77, 77, 0.8); }
+  .loginpage h2, .regpage h2 {
+    margin-bottom: 0; }
+  .loginpage input, .regpage input {
+    margin-bottom: .5em; }
+  .loginpage #loginform input:nth-child(2), .regpage #loginform input:nth-child(2) {
+    margin-bottom: 0; }
+  .loginpage #signin, .regpage #signin {
+    background: green; }
+  .loginpage #signin:hover, .regpage #signin:hover {
+    background: #00e200;
+    transition: 1s all; }
+  .loginpage #checkbox, .regpage #checkbox {
+    margin: 0;
+    padding: 0; }
+  .loginpage p, .regpage p {
+    position: absolute;
+    font-size: 1.2em;
+    font-weight: 800;
+    top: .8em;
+    right: 2.2em; }
+  .loginpage p:hover, .regpage p:hover {
+    color: #A81D7A;
+    cursor: pointer;
+    transition: 1s all; }
+
+.containerpages {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center; }
+
+.formular {
+  margin: 1em 1em;
+  background: #edededec;
+  flex: 2 5%;
+  color: #222222;
+  border: 0.2em solid #4d4d4d;
+  box-shadow: 0.1em 0.1em 1em #1a1a1a; }
+  .formular form {
+    font-size: 2em;
+    font-family: "Bahianita", sans-serif;
+    padding: 1em;
+    display: inline-block; }
+  .formular input {
+    background: #888;
+    border: 0;
+    border-radius: 1em;
+    margin-left: .3em; }
+  .formular input::placeholder {
+    text-align: center; }
+  .formular .players {
+    background: #5a5a5a;
+    line-height: 1em; }
+    .formular .players p {
+      margin: 0;
+      padding: .2em;
+      border-bottom: 0.1em #676767 dotted;
+      color: #eeeeee; }
+  .formular h3 {
+    margin: 1em 1em;
+    font-size: 1.5em;
+    font-family: "Bahianita", sans-serif; }
+
+.info {
+  color: #222222;
+  background: #edededec;
+  line-height: 1.9em;
+  margin: 1em 1em;
+  flex: 2 100%;
+  flex-direction: row;
+  flex-basis: 33%;
+  border: 0.2em solid #4d4d4d;
+  box-shadow: 0.1em 0.1em 1em #1a1a1a; }
+  .info img {
+    width: 30em;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1.5em; }
+  .info p {
+    padding: .7em; }
+
+h3 {
+  margin: 1em 1em;
+  font-size: 1.5em;
+  font-family: "Bahianita", sans-serif;
+  font-size: 4em; }
+
+.info p {
+  font-size: 2.1em;
+  font-family: "Bahianita", sans-serif; }
+
+.welcome {
+  max-width: 70vw;
+  max-height: 100vh; }
+
+.btn-default {
+  font-size: 1em;
+  color: #888;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: .1em .3em;
+  padding: 5px 5px;
+  border-radius: 1em;
+  color: #4d4d4d; }
+
+.btn-default:hover,
+.btn-default:focus {
+  background: #555555;
+  color: #cdcdcd;
+  transition: 0.5s all ease-in-out; }
+
+@media screen and (max-width: 1340px) {
+  ul {
+    padding: 0; } }
+@media screen and (max-width: 850px) {
+  section {
+    flex-direction: column;
+    align-items: center; } }
+@media screen and (max-width: 768px) {
+  #menu {
+    width: 1.4em;
+    display: block;
+    background: #d5d5d5;
+    font-size: 2em;
+    text-align: center;
+    color: #555555;
+    cursor: pointer; }
+
+  #nav.js {
+    display: none; } }
+@media screen and (min-width: 768px) {
+  #menu {
+    display: none; } }
+@media screen and (max-width: 704px) {
+  .heartbeat ul {
+    margin: 0;
+    padding: 0; } }
+@media screen and (max-width: 600px) {
+  .gamenav a {
+    padding-right: 0;
+    font-size: 2em; } }
+
+/*# sourceMappingURL=style.css.map */
