@@ -1,5 +1,5 @@
 <?php 
-ConnectionUser();
+
 
 
 if(isset($_POST["signin"])){
