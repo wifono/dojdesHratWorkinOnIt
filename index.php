@@ -43,7 +43,7 @@
 
         <article class="info animate__animated animate__backInUp">
             <h2>Upozornenie</h2>
-            <p>Stránka je stále vo vývoji, preto vás prosíme o trpezlivosť.</p>
+            <p>Stránka je stále vo vývoji, preto vás prosíme o trpezlivosť....</p>
         </article>
     
         <article class="info welcome animate__animated animate__backInUp">
