@@ -1,0 +1,22 @@
+footer {
+    
+    @include box-sizing (border-box);
+    background:lighten($color-menu-txt, 30%);
+    box-shadow: .1em .1em 1em darken($color-menu-bg, 20%);
+
+    font: {
+        family: $font-family-bah;
+        size: 1.5em;
+}
+
+padding:    1px 0;
+margin:     0;
+
+border-top: .15em darken($color-menu-txt, 40%) solid;
+
+    p { 
+        padding: .2em 0;
+        margin: 0; }
+        color:darken($color-menu-txt, 40%);
+        ;
+    }

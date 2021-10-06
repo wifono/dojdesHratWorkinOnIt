@@ -1,0 +1,11 @@
+.gamenav {
+    background: lighten($color-menu-txt, 30%);
+    box-shadow: .1em .1em 1em darken($color-menu-bg, 20%);
+
+    color: darken($color-menu-txt,20%);
+    a {
+        margin: 0;
+        
+    }
+    border-top: $color-menu-txt .3111em solid; 
+}

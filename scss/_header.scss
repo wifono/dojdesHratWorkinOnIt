@@ -1,0 +1,61 @@
+//HEADER
+header {
+        background:lighten($color-menu-txt, 30%);
+        box-shadow: .1em .1em 1em darken($color-menu-bg, 20%);
+
+}
+
+.site-header {
+
+    @include overflow (hidden);
+
+
+   
+        margin:         0;
+        list-style:     none;
+        padding-left:   0%;
+
+    font: {
+        family:         $font-family-bah;
+        
+}
+    
+
+ul {
+        margin:         0;
+}
+
+li, a {
+        display:        inline-block;
+}
+
+a {
+        font-size:      2.3em;
+        padding:        1em;
+        padding-right:  1em;
+        font-weight:    800;
+        color:darken($color-menu-txt,20%);
+
+        text-transform: uppercase;
+        text-shadow:    ($color-logo, 10%) 0px 1px .07em;
+        padding:        0.5em 1em;
+
+
+        &:hover,
+        &:focus {
+        color:               darken($color-hover, 15%);
+        transition:         .3s all ease-in-out;
+        -webkit-transition: .3s all ease-in-out;
+        -moz-transition:    .3s all ease-in-out;
+        -ms-transition:     .3s all ease-in-out;
+        -o-transition:      .3s all ease-in-out;
+}
+    }}
+
+ .active a {
+        border-radius: .1em;
+        background-color: lighten($color-menu-txt, 18%);
+        color: darken($color-menu-txt, 35%);
+        padding: .1em .3em;
+}
+

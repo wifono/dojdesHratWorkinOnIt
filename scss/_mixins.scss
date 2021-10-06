@@ -1,0 +1,43 @@
+
+
+@mixin box-sizing ( $value ) {
+    -webkit-box-sizing: $value;
+       -moz-box-sizing: $value;
+            box-sizing: $value;
+}
+
+@mixin display ($value) {
+    display:flex;
+
+}
+
+
+@mixin container ($width) {
+    max-width: $width;
+    margin: 0;
+    display: flex;
+}
+@mixin clearfix {
+    &:before,
+    &:after { content: " "; display: table; }
+    &:after { clear: both; }
+}
+
+@mixin h3 {
+    
+    margin:1em 1em;
+    font-size: 1.5em;
+    font-family: $font-family-bah;
+}
+
+@mixin overflow ($value) {
+    overflow: ($value);
+}
+
+@mixin font-size($size, $context: 16) {
+    font-size: em ($size, $context);
+}
+
+@function em( $size, $context: 16) {
+    @return ( $size / $context ) * 1em;
+}

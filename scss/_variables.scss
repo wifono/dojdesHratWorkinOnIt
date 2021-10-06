@@ -1,0 +1,32 @@
+//variables
+//________________________
+
+$color-text:    rgb(245, 245, 245);
+$color-muted:   #0CA3A8;
+$color-menu-txt:#888;
+$color-logo:    #131313;
+$color-hover:   #A81D7A;
+
+$color-boxes:   #edededec;
+
+
+$loginborder: rgba(8, 8, 8, 0.966) 0 0 2em;
+$loginshadow: rgba(8, 8, 8, 0.966) 0 0 2em;
+$loginbackground: rgba(17, 17, 17, 0.705);
+
+
+
+$color-menu-bg:    #4d4d4d;
+$transparent-main-color: #1c1c1c93;
+
+$color-bg-home:    darken($color-menu-bg,  15%);
+$color-bg-aboutus: lighten($color-menu-bg, 2%);
+$color-bg-team:    darken($color-menu-bg,  15%);
+$color-bg-FAQ:     lighten($color-menu-bg, 2%);
+
+
+$font-family-bah:   'Bahianita', sans-serif;
+$font-family-text:  'Roboto', sans-serif;
+$font-size-base:     1em;
+
+$debug: false;

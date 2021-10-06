@@ -1,0 +1,156 @@
+// LOGIIIIIINNNN
+
+.login {
+
+    position: fixed;
+    font-family: $font-family-bah;
+
+    z-index: 20;
+    padding-left: 0em;
+    right: 0;
+    top: 0;
+
+    background-color:  $loginbackground;
+    box-shadow:$loginshadow;
+
+    border: $loginborder;
+    transition: 1s all;
+
+    opacity: 0;
+    
+
+
+    a {
+            font-size:1.2em;
+
+    }
+
+    a:hover {
+            color: $color-hover;        
+            transition: .5s all ease-in-out;
+
+    }
+
+    li {
+            font-size: 1.2em;
+            list-style-type: none;
+            margin-right: 2em;                 
+}       
+    li:first-child {
+            margin-top: -.2em;
+            margin-bottom: .1em;
+    }
+}
+
+
+.loginicon {
+
+    position:    fixed;
+    font-family: $font-family-bah;
+
+    z-index:    30;
+
+   
+    right:      0;
+    top:        0;
+
+
+    a {
+        font-size: 3.5em;
+        color:     $color-muted;
+    }
+
+  
+
+    li {
+        font-size:       1.2em;
+        list-style-type: none;
+        margin-right:    3em;
+        margin-top:      -.65em;             
+    }
+
+
+
+  a:hover {
+            color: darken($color-hover, 20%);
+            transition: .5s all ease-in-out;
+    }
+
+}
+
+.logincont, .regcont {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+        position:fixed;
+        z-index: 25;
+        flex-direction: column;
+
+        display: none;
+        transition: .5s all;
+}
+
+  .loginpage, .regpage {
+        display: flex;
+        max-width: 30rem;
+        height:auto;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+
+
+        background: rgba($color-menu-bg, .8);
+
+        h2 {
+                margin-bottom: 0;
+        }
+
+        input {
+                margin-bottom: .5em;
+
+        }
+
+        #loginform input:nth-child(2) {
+                margin-bottom: 0;
+        }
+        
+
+        #signin {
+                background: green;
+        }
+
+        #signin:hover {
+                background: rgb(0, 226, 0);
+                transition: 1s all;
+        }
+
+        #checkbox {
+                margin: 0;
+                padding: 0;
+        }
+        
+        p {
+                position: absolute;
+                font-size: 1.2em;
+                font-weight: 800;
+
+                top: .8em;
+                right: 2.2em;
+        
+                
+}
+        p:hover {
+                
+                color: $color-hover;
+                cursor: pointer;
+                transition: 1s all;
+}
+}
+
+.containerpages {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }

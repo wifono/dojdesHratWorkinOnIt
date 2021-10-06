@@ -1,0 +1,31 @@
+@mixin button {
+
+    font: {
+        size:   1em;
+    }
+
+    color:      $color-menu-txt;
+    border:     none;
+    cursor:     pointer;
+
+    text-transform: uppercase;
+    display:        inline-block;
+    margin:        .1em .3em;
+    padding:        5px 5px;
+    border-radius:  1em;
+}
+
+.btn-default {
+
+    @include button;
+
+    color:          $color-menu-bg;
+
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    background:      darken($color-menu-txt,20%);
+    color:           lighten($color-menu-bg, 50%);
+    transition:     .5s all ease-in-out ;
+}

@@ -1,0 +1,32 @@
+//TYPO
+
+h1 {
+    
+    text-transform: uppercase;
+    display: inline-block;
+    text-transform: uppercase;
+    padding:        0.5em 0;
+    margin:         0pt;
+    text-shadow:    lighten($color-menu-bg, 10%) 0px 1px 1em;
+    font: {
+        size:       10em;
+        family:     $font-family-bah;
+        
+    }
+
+}
+
+
+
+
+
+.logo { 
+                    border-top: $color-menu-txt .3em solid; 
+}
+
+h2 {
+    font: {
+                    size: 3.5em;
+                    family:$font-family-bah;
+    }
+}

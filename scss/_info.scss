@@ -1,0 +1,44 @@
+//INFORMATION
+
+.info {
+    color:darken($color-menu-txt, 40%);
+
+    background:         $color-boxes;
+    line-height:        1.9em;
+    margin:             1em 1em;
+    flex:               2 100%;
+    flex-direction: row;
+    flex-basis: 33%;
+
+    border: .2em solid $color-menu-bg;
+    box-shadow: .1em .1em 1em darken($color-menu-bg, 20%);
+
+
+
+    img {
+        width: 30em;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 1.5em;
+    }
+
+    p {
+        padding:       .7em;
+
+    }
+}
+
+h3 {
+    @include    h3;
+    font-size:          4em;
+}
+.info p {
+                        font-size: 2.1em;
+                        font-family: $font-family-bah;
+} 
+
+
+.welcome {
+   max-width: 70vw; 
+   max-height:100vh;
+}

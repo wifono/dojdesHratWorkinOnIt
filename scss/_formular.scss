@@ -1,0 +1,53 @@
+//FORMULAR
+.formular {
+    margin:       1em 1em;
+    background: $color-boxes;
+    flex:         2 5%;
+    color:darken($color-menu-txt,40%);
+    border: .2em solid $color-menu-bg;
+    box-shadow: .1em .1em 1em darken($color-menu-bg, 20%);
+
+
+
+form {
+        font-size:   2em;
+        font-family: $font-family-bah;
+        padding:     1em;
+        display:     inline-block;
+                
+}
+
+
+    
+input {
+
+        background:     $color-menu-txt;
+        border:         0;
+        border-radius:  1em;
+        margin-left:   .3em;       
+}
+
+input::placeholder {
+        text-align: center;
+}
+
+.players {
+
+        background:     lighten($color-menu-bg, 5%);
+        line-height:    1em;
+    
+    p {
+        margin: 0;
+        padding:        .2em;
+        border-bottom: .1em lighten($color-menu-bg,10%) dotted;
+        color:          lighten($color-menu-txt, 40%);
+
+}}
+
+
+
+
+h3 {
+    @include h3;
+}
+}
