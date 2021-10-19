@@ -4,19 +4,19 @@
 
             <ul id="nav">
                 <li>
-                    <a href="../random1/index.php">Home</a>
+                    <a href="index.php">Home</a>
                 </li>
 
                 <li>
-                    <a href="../random1/about-us.php">About us</a>
+                    <a href="about-us.php">About us</a>
                 </li>
 
                 <li>
-                    <a href="../random1/team.php">Team</a>
+                    <a href="team.php">Team</a>
                 </li>
 
                 <li>
-                    <a href="../random1/FAQ.php">FAQ</a>
+                    <a href="FAQ.php">FAQ</a>
                 </li>
 
             </ul>

@@ -8,8 +8,8 @@ if ( window.history.replaceState ) {
 }
 </script>
 
-<script src="../random1/js/jquery-3.6.0.js"></script>
-<script src="../random1/js/js.js"></script>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/js.js"></script>
 
 
 
