@@ -75,7 +75,7 @@ function Delete() {
 function ConnectionUser() {
     global $connection;
 
-    $connection = mysqli_connect("localhost","root","","dojdeshrat");
+    $connection = mysqli_connect("localhost","root","dojdeshrat");
 
     if(!$connection){
         die("oh fuck");
@@ -102,7 +102,7 @@ function CreateUser() {
     $password = password_hash( $password, PASSWORD_BCRYPT);
 
     // DATA TO DATABASE
-    $query = "INSERT INTO users(username,password,email) VALUES('$username', '$password', '$email')";
+    $query = "INSERT INTO users(username, password, email) VALUES('$username', '$password', '$email')";
 
     $result = mysqli_query($connection, $query);
 
